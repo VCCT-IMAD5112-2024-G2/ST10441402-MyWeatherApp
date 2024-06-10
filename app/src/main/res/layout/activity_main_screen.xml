@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/themeImageView"
+        android:layout_width="1518dp"
+        android:layout_height="2450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/istockphoto_1007768414_612x612" />
+
+    <EditText
+        android:id="@+id/maxTemperatureEditText"
+        android:layout_width="360dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="494dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Max Temperature"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <EditText
+        android:id="@+id/dayEditText"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="641dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter the Day"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <EditText
+        android:id="@+id/temperatureEditText"
+        android:layout_width="372dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="566dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Temperature"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <EditText
+        android:id="@+id/minTemperatureEditText"
+        android:layout_width="341dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="399dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Min temperature"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <EditText
+        android:id="@+id/weatherConditionEditText"
+        android:layout_width="379dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginBottom="317dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Weather Conditions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <Button
+        android:id="@+id/calculateAverageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="144dp"
+        android:text="Average"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="135dp"
+        android:text="Clear"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="642dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="41dp"
+        android:text="Add"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="91dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="633dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="41dp"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <TextView
+        android:id="@+id/averageTemperatureTextView"
+        android:layout_width="250dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
